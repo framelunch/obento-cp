@@ -8,7 +8,7 @@ yarn add obento-cp
 ```
 
 npm:
-```
+```bash
 npm install --save obento-cp
 ```
 

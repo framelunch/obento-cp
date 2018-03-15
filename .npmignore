@@ -1,7 +1,7 @@
 out/
 .gitignore
 .eslintignore
-.eslintrc.js
+.eslintrc
 index.test.js
 yarn.lock
 yarn-error.log
