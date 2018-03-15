@@ -1,1 +1,8 @@
+out/
+.gitignore
+.eslintignore
+.eslintrc.js
+index.test.js
 yarn.lock
+yarn-error.log
+

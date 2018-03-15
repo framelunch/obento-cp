@@ -1,11 +1,12 @@
 {
   "name": "obento-cp",
-  "version": "0.0.1",
-  "description": "関数の逐次実行を高速化します",
-  "author": "pond6",
+  "version": "1.0.0",
+  "description": "obento-cp executes the registered function at high speed without using the for statement.",
+  "author": "pond6 <ikeda@framelunch.jp>",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "prepublish": "run-s lint test",
     "docs": "jsdoc index.js",
     "lint": "eslint index.js",
     "test": "jest --forceExit"
@@ -15,6 +16,15 @@
   },
   "devDependencies": {
     "eslint": "^4.18.2",
-    "jsdoc": "^3.5.5"
-  }
+    "jsdoc": "^3.5.5",
+    "npm-run-all": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:framelunch/obento-cp.git"
+  },
+  "homepage": "https://github.com/framelunch/obento-cp"
 }
