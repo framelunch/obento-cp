@@ -1,6 +1,6 @@
 {
   "name": "obento-cp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "obento-cp executes the registered function at high speed without using the for statement.",
   "author": "pond6 <ikeda@framelunch.jp>",
   "main": "index.js",
